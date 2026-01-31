@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 400px;
+  width: 600px;
+  background-color: wheat;
+  position: relative;
+}
+
+.box{
+    box-sizing: border-box;
+  
+}
+.first, .third {
+  height: 100px;
+  background-color: rgb(201, 28, 57);
+
+}
+.second{
+  background-color: rgb(13, 22, 94);
+  height: 200px;
+  position: relative;
+
+}
+.circle{
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left:200px;
+  top:10px;
+
+
+}
+
+

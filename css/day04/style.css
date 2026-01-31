@@ -1,0 +1,63 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    
+} */
+
+
+/* h1{
+    background-color: red;
+}
+
+
+.classA{
+    background-color: green;
+}
+
+
+#firstId{
+    background-color: orange;
+}
+
+h2{
+  background-color:aqua !important;
+}
+
+ */
+
+
+
+ /* position */
+ h2{
+    background-color: orange;
+    position: relative;
+    left: 100px;
+
+  
+ }
+
+
+ h3{
+    background-color: pink;
+    position: fixed; 
+    top: 0px;
+    left: 250px;
+
+
+ }
+
+ h4{
+    background-color:brown;
+    position:sticky;
+    top: 0px;
+ }
+
+ p{
+    background-color:aquamarine;
+    position:absolute;
+    top: 0px;
+    margin: 0px;
+    left: 250px;
+    z-index:10; 
+
+ }

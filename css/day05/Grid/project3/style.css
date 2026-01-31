@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+
+}
+.Box{
+      background-color: rgb(100, 100, 245);
+}
+.first{
+    grid-row: 1/4;
+}
+
+
+.second{
+    grid-column: 2/4;
+}
+
+.sixth{
+    /* nich wale case mein sixh valo ko jagh nahi thi to usne fir jagh change ki jaha par availbe thi but jab hame exact jagh chiye to uske column and row ki position bhi batani padhegi */
+    grid-column: 4/5;
+    grid-row: 2/4;
+
+}

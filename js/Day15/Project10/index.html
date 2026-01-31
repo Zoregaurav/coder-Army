@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form>
+    <div class="quiz-container">
+      <h1>HTML & CSS Quiz</h1>
+
+      <div class="question">
+        <p>1. What does HTML stand for?</p>
+        <label>
+          <input type="radio" name="q1" value="Hyper Text Markup Language" />
+          Hyper Text Markup Language
+        </label>
+        <label>
+          <input type="radio" name="q1" value="High Text Machine Language"/>
+          High Text Machine Language
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Hyper Tool Multi Language"/>
+          Hyper Tool Multi Language
+        </label>
+      </div>
+
+      <div class="question">
+        <p>2. Which property is used to change text color in CSS?</p>
+        <label>
+          <input type="radio" name="q2" value="font-color" />
+          font-color
+        </label>
+        <label>
+          <input type="radio" name="q2"value="text-color" />
+          text-color
+        </label>
+        <label>
+          <input type="radio" name="q2" value="color"/>
+          color
+        </label>
+      </div>
+
+      <div class="question">
+        <p>3. Which tag is used to create a link?</p>
+        <label>
+          <input type="radio" name="q3" value="&lt;link&gt" />
+          &lt;link&gt;
+        </label>
+        <label>
+          <input type="radio" name="q3" value="&lt;a&gt;" />
+          &lt;a&gt;
+        </label>
+        <label>
+          <input type="radio" name="q3" value="&lt;href&gt;" />
+          &lt;href&gt;
+        </label>
+      </div>
+
+      <div class="question">
+        <p>4. Which CSS property is used to change background color?</p>
+        <label>
+          <input type="radio" name="q4" value="color"/>
+          color
+        </label>
+        <label>
+          <input type="radio" name="q4" value="bgcolor"/>
+          bgcolor
+        </label>
+        <label>
+          <input type="radio" name="q4" value="background-color" />
+          background-color
+        </label>
+      </div>
+
+      <button>Submit Quiz</button>
+    </form>
+
+    <div class="result" id="result"></div>
+    <div id="out"></div>
+</div>
+
+  </body>
+  <script src="first.js"></script>
+</html>

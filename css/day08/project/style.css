@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0pc;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+     /* position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+
+}
+
+
+
+
+

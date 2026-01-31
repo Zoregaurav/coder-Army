@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 20px;
+}
+/* desktop first approach */
+/* 
+
+@media screen and (max-width:900px){
+    .container{
+        background-color: green;
+        font-size: 40px;
+    }
+} */
+
+/* @media screen and (max-width:600px){
+      .container{
+          /* height:200px;
+          width:200px; 
+          background-color: pink;
+          font-size: 30px;
+      }
+} */
+
+
+/* @media screen and (min-width:800px) {
+    .container{
+        background-color:orange;
+        font-size: 60px;
+    }
+} */
+
+
+/* mobile first approach */
+@media screen and (min-width:600px){
+    .container{
+        background-color:orange;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:900px){
+      .container{
+          /* height:200px;
+          width:200px; */
+          background-color: green;
+          font-size: 30px;
+      }
+}
+
+

@@ -1,0 +1,100 @@
+/* h1 { */
+/* background-color: orange;
+  height: 300px;
+  width: 300px; */
+/* 
+    border-width: 5px;
+    border-style: solid;
+    border-color: green; */
+
+/* border: 10px solid green;
+     padding: 5px; */
+
+/* border-bottom: 10px solid black; */
+/* padding-top: 20px; */
+/* padding: 10px 20px 30px 40px; */
+
+/* padding: 20px 40px; */
+/* margin-top: 50px; */
+/* margin: 20px 30px 40px 50px;
+  border: 4px solid black;
+  padding: 12px;
+} */
+
+/* 
+h2 {
+  background-color: pink;
+  border: 2px solid blue;
+} */
+
+/* p {
+  background-color: aquamarine;
+  border: 2px solid red;
+  padding: 20px;
+  margin: 5px;
+  width: 200px;
+} */
+
+/* span {
+  color: blue;
+} */
+
+/* default margin and padding ko hatata hain! */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* span mein horizontal padding apply karta hain */
+/* margin mein bhi horizontal apply karta hain margin */
+/* baki up down margin nahi apply hoga */
+/* visually dikh raha hain bas jaghase hil nahi raha hain*/
+span {
+  background-color: aqua;
+  /* font-size: 23px;
+    font-weight:900; */
+  height: 200px;
+  width: 200px;
+  /*padding-top: 23px;kuch nahi hoga */
+  /* padding: 20px; */
+  /* margin: 20px; */
+  /* display: block; */
+}
+
+/* block level ko inline kaise banana hain niche example hain!*/
+h1 {
+  background-color: aqua;
+  height: 300px;
+  width: 300px; 
+  /* display: inline; */
+  margin-bottom: 20px;
+  display: inline-block;
+  border: 10px solid orange;
+  box-sizing: content-box;
+
+}
+
+/* border-box=border-width+padding-width+content-width=width(300)=>mostly used*/
+/* content-box=content-wdith=300px */
+h2 {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+  /* display: inline-block; */
+  border: 10px solid orange;
+
+}
+
+/* study on border box: */
+
+/* Actual width ho jaayegi:
+200 + 20 + 20 + 10 + 10 = 260px
+
+Yeh problem banata hai jab:
+
+layout bigad jata hai
+
+container ke bahar box nikal jata hai
+
+responsive design mein calculations tough ho jaate hain */

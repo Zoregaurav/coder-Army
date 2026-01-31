@@ -1,0 +1,106 @@
+/* Tag Element selector */
+/* h1{
+    background-color: pink;
+    font-size: 30px;
+}
+
+
+ul{
+    background-color: aquamarine;
+
+}
+
+h2{
+    background-color: blue;
+} */
+
+/* id base selection  # based selection*/
+/* 
+#first{
+    background-color: blue;
+} */
+
+/* class based selection */
+/* .third{
+    background-color:aqua;
+} */
+
+/* group based selection */
+
+/* h1, .third, #first{
+    background-color: aqua;
+
+} */
+
+/* RGB */
+
+/* h1{ */
+/* background-color: rgb(93, 177, 149,0.8); */
+
+/* } */
+
+/* h2{ */
+/* background-color: hsl(hue,saturation,lightness); */
+/* background-color: hsl(110,50%,50%,0.483); */
+/* } */
+
+/* h1{
+    background-color: #639747;
+} */
+
+/* font */
+/* px->picture element */
+/* px depends on the size of devices->not 1/96 */
+/* px */
+/* h1{
+    font-size: 50px;   
+} */
+/* 
+ul{
+    font-size: 20px;
+
+} */
+
+/* em ->parent yane ek level upar uske relative mein eska size define hoga  */
+
+/* li{
+    font-size: 1em;
+} */
+
+/* html{
+    font-size: 40px;
+} */
+
+/* rem-> root element ke relative mein hoga jise ki html  */
+
+/* h2{
+    font-size: 2rem;
+} */
+
+/* vh ->vindow size ke relative main hoga */
+/* h2{
+    font-size: 1vw;
+} */
+
+/* li{
+    font-size: 3vh; */
+/* } */
+
+/* h2{ */
+/* font-size: 2vw; */
+/* font-size: 3vh; */
+/* } */
+
+/* %->parent ke relative main iska size rahega  */
+/* 50% yane 25px ,100% parent rahega to 50px child rahega */
+/* h2{
+   font-size: 200%;
+} */
+
+h2 {
+
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}

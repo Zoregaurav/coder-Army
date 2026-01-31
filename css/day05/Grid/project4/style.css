@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height:  600px;
+    width: 1300px;
+    background-color:black;
+    gap: 10px;
+    grid-template-columns:1fr 2fr 2fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    padding: 10px;
+
+}
+.Box{
+    background-color: rgb(72, 72, 225);
+}
+
+.third{
+    grid-column: 3/5;
+}
+
+.seventh{
+    grid-row: 2/4;
+    grid-column: 4/5;
+
+}
+
+.eight{
+    grid-column: 2/3;
+}

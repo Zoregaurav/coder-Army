@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+}
+
+
+body{
+    background-color: black;
+}
+
+.container{
+    /* grid creation phase */
+    padding: 2px;
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+}
+
+.first{
+   background-color: red;
+}
+
+
+.second{
+    background-color: green;
+}
+
+
+.third{
+    background-color: orange;
+}
+.fourth{
+    background-color: blue;
+
+}

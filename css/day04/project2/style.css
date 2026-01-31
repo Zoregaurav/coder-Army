@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    height: 300px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 23px;
+    position: relative;
+
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: rgb(106, 106, 212);
+}
+
+.first, .third{
+    height:100px;
+    width: 200px;
+    /* background-color:blue; */
+    /* border-radius: 23px; */
+}
+
+.third{
+     position:absolute;
+     bottom: 0px;
+}
+
+
+.second, .fourth{
+    height:85px;
+    width: 170px;
+    position: absolute;
+
+}
+
+.second{
+    top: 0px;
+    right: 0px;
+}
+
+.fourth{
+    bottom: 0px;
+    right: 0px;
+}
+
+

@@ -1,0 +1,72 @@
+
+/* parent decide karta hain ki child kaise hone chiye in flexbox */
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+     /* flex-direction: column-reverse; */
+     /* justify-content: center; */
+     /* justify-content: end; */
+     /* justify-content: space-around; */
+     /* justify-content: space-evenly; */
+     height:900px;
+     flex-direction:row;
+     /* main axis ke around kam karta hain justify conetent */
+     /* main axis decide kun karga,aapka flex direction */
+
+     /* justify-content:center; */
+
+     /* align items work around cross axis */
+     justify-content: start;
+     /* flex-wrap: wrap-reverse; */
+
+     /*gap kitne ka dena hain->parent ne gap diya na ki child*/
+     gap:5px;
+
+     align-items: center;
+
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin:10px; */
+
+    
+}
+
+.first{
+    background-color: orange;
+    /* g=flex-grow ky bolta hain ki jab jaga kahi rahega mein us jaga ka upyog karunga */
+    /* flex-grow: 1; */
+    /*flex-basis->override the width on the basis of main axis for eg:row->width increse hogi and col->height increase hogi */
+    /* flex-basis:200px; */
+
+}
+
+.second{
+      background-color: green;
+      /* flex-grow: 2; */
+      /* element kitna shrink hona chaiye as comapred to others */
+      /* flex-shrink: 3; */
+
+
+}
+
+.third{
+    background-color:red ;
+    /* flex-grow: 6; */
+
+    /* main flow se hat deta hain */
+     align-self:flex-start ;
+
+}
+.fourth{
+    background-color:chartreuse ;
+}
+
+
+

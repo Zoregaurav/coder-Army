@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+    
+    
+}
+
+.box{
+     height: 150px;
+     background-color: orange;
+     width: 150px ;
+     cursor: pointer;
+     /* transition-duration: 3s; */
+     /* transition-property: all; */
+     /* transition-timing-function: linear; */
+     /* transition-timing-function:ease-in;
+     transition-delay: 2s; */
+     /*transition shorthand: */
+     /* transition: all 3s ease-in 2s; */
+     /* transition :all 3s; */
+     /* transform: translate(100px,200px); */
+     /* transform: rotate(45deg); */
+
+      /* transform: skewX(-10deg); */
+      /* transform: skewY(-30deg); */
+         /* transition: all 3s; */
+         font-size: 50px;
+         color: white;
+         animation-name:moving;
+         animation-duration: 3s;
+         animation-iteration-count: 1;
+         animation-timing-function: linear;
+         border-radius: 50%;
+
+       
+
+}
+@keyframes moving{
+
+     from{
+        transform: rotate(0deg);
+
+     }
+     to{
+        transform:rotate(360deg);
+        
+     }
+}
+
+
+.box:hover{
+    /* background-color: red; */
+     /* height: 300px;
+    width: 300px; */
+    /* transform: scalex(2); */
+    /* transform: translate(100px,200px); */
+     /* transform: translatex(100px); */
+     /* transform: translateZ(200px); */
+     /* transform: rotateZ(-90deg); */
+     
+}

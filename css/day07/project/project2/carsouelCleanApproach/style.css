@@ -1,0 +1,52 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+} */
+
+.carousel-container{
+    width: 100%;
+    overflow: hidden;
+    background-color: pink;
+    padding: 20px 0;
+    margin-top: 150px;
+
+}
+
+.card{
+    flex: 0 0 auto;
+    width: 200px;
+    height: 300px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+    color:white;
+    border-radius: 20px;
+    margin: 0 1;
+    
+   
+}
+
+
+.carosuel-track{
+    display: flex;
+     gap: 20px;
+     width: max-content;
+     animation: scroll 10s linear infinite;
+
+}
+
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform:translate(-50%);
+    }
+}
+
+.carousel-container:hover .carosuel-track:hover{
+    animation-play-state: paused;
+}
