@@ -6,7 +6,7 @@
 
 // 'use strict'
 //global object:In window it is called window,in node js,it is called global.
-//globalThis points to global object of the enviornment
+//global This points to global object of the enviornment
 
 
 
@@ -102,7 +102,7 @@ user2.greet();
 
 // const user=greet();
 
- //call,apply,bind ,this point to the invoking object
+//call,apply,bind ,this point to the invoking object
 // incrementAge.call(user2,10,"Mohan");
 // incrementAge.apply(user2,[10,"mohan"]);
 // const incr=incrementAge.bind(user2,10,"mohan");
